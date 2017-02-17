@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:EquisoftDemo" x:Class="EquisoftDemo.EquisoftDemoPage">
     <ContentPage.Content>
         <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0, 20, 0, 0">
-            <Label x:Name="MyLabel" Text="Welcome to the best app ever!" HorizontalOptions="Center" />
+            <Label x:Name="MyLabel" Text="Welcome" HorizontalOptions="Center" />
             <Button x:Name="MyButton" Text="Click Me" Clicked="ButtonClicked" HorizontalOptions="Center" Margin="0, 20, 0, 0" />
         </StackLayout>
     </ContentPage.Content>
