@@ -11,7 +11,7 @@ namespace EquisoftDemo
 		{
 			InitializeComponent();
 
-			Title = "Second page!";
+			Title = "Second Page";
 		}
 	}
 }

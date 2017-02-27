@@ -8,21 +8,22 @@ namespace EquisoftDemo
 		public EquisoftDemoPage()
 		{
 			InitializeComponent();
-
-			Title = "Awesome App";
+			BindingContext = new DemoViewModel();
+			//Title = "Home Screen";
 		}
 
-		void ButtonClicked(object sender, EventArgs e)
-		{
-			//Button button = (Button)sender;
-			//button.Text = button.Text + '!';
+		//void ButtonClicked(object o, EventArgs e)
+		//{
 
-			//MyLabel.Text = "Clicked";
+		//	//MyLabel.Text = "Clicked";
 
-			Navigation.PushAsync(new MyPage(),true);
+		//	Button button = (Button)o;
+
+		//	button.Text = "Awesome!";
+
+		//	Navigation.PushAsync(new MyPage(), true);
 
 
-		}
-
+		//}
 	}
 }

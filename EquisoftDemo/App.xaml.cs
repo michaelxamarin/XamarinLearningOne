@@ -8,8 +8,7 @@ namespace EquisoftDemo
 		{
 			InitializeComponent();
 
-			MainPage = new NavigationPage(new EquisoftDemoPage());
-			//MainPage.Navigation.PushAsync(new EquisoftDemoPage(), true);
+			MainPage = new NavigationPage(new EquisoftDemoPage()); //new EquisoftDemoPage();
 		}
 
 		protected override void OnStart()

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B5C1FB19-EFEE-4F19-93FA-7F8ECD947254}</ProjectGuid>
+    <ProjectGuid>{C577A913-A9BE-43AC-A719-FC348BBA1A42}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>EquisoftDemo.Droid</RootNamespace>
@@ -84,7 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EquisoftDemo\EquisoftDemo.csproj">
-      <Project>{6D77EDB4-7F60-4643-8016-C35F5ADA54CA}</Project>
+      <Project>{C4931848-4F62-4D8E-B6BB-2D92E116C2A5}</Project>
       <Name>EquisoftDemo</Name>
     </ProjectReference>
   </ItemGroup>
@@ -107,7 +107,6 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable\ilike.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A1B748E8-0BF2-4B5F-A825-D9E54822966B}</ProjectGuid>
+    <ProjectGuid>{F5405EF0-9B02-4AE4-93E0-A12ABDA3D391}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>EquisoftDemo.UITests</RootNamespace>
     <AssemblyName>EquisoftDemo.UITests</AssemblyName>
@@ -35,13 +35,13 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\iOS\EquisoftDemo.iOS.csproj">
-      <Project>{7AB2760B-D79D-4941-B4A2-2FE2D85C8A12}</Project>
+      <Project>{4F1AA5D8-C7AE-4CE6-BF9A-0D6135B52C6D}</Project>
       <Name>EquisoftDemo.iOS</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\Droid\EquisoftDemo.Droid.csproj">
-      <Project>{B5C1FB19-EFEE-4F19-93FA-7F8ECD947254}</Project>
+      <Project>{C577A913-A9BE-43AC-A719-FC348BBA1A42}</Project>
       <Name>EquisoftDemo.Droid</Name>
       <ReferenceOutputAssembly>False</ReferenceOutputAssembly>
       <Private>False</Private>

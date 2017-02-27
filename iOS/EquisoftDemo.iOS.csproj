@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
-    <ProjectGuid>{7AB2760B-D79D-4941-B4A2-2FE2D85C8A12}</ProjectGuid>
+    <ProjectGuid>{4F1AA5D8-C7AE-4CE6-BF9A-0D6135B52C6D}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Exe</OutputType>
     <RootNamespace>EquisoftDemo.iOS</RootNamespace>
@@ -23,7 +23,7 @@
     <MtouchFastDev>true</MtouchFastDev>
     <MtouchUseSGen>true</MtouchUseSGen>
     <MtouchUseRefCounting>true</MtouchUseRefCounting>
-    <IOSDebuggerPort>40390</IOSDebuggerPort>
+    <IOSDebuggerPort>43055</IOSDebuggerPort>
     <MtouchLink>None</MtouchLink>
     <MtouchArch>x86_64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
@@ -107,7 +107,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EquisoftDemo\EquisoftDemo.csproj">
-      <Project>{6D77EDB4-7F60-4643-8016-C35F5ADA54CA}</Project>
+      <Project>{C4931848-4F62-4D8E-B6BB-2D92E116C2A5}</Project>
       <Name>EquisoftDemo</Name>
     </ProjectReference>
   </ItemGroup>
@@ -129,9 +129,6 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\ilike.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.3.180\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20\Xamarin.Forms.targets')" />
